@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                     // Do it like this instead
                     uiThread.post(new Runnable() {
                         public void run() {
-                            Button blueButton = (Button) findViewById(R.id.greenButton);
+                            Button blueButton = (Button) findViewById(R.id.blueButton);
                             blueButton.setBackgroundColor(Color.BLUE);
                         }
                     });
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                     // Do it like this instead
                     uiThread.post(new Runnable() {
                         public void run() {
-                            Button blueButton = (Button) findViewById(R.id.greenButton);
+                            Button blueButton = (Button) findViewById(R.id.blueButton);
                             blueButton.setBackgroundColor(Color.LTGRAY);
                         }
                     });
